@@ -9,7 +9,7 @@ import { Answer } from '@/context/context';
 const RightAnsCard = () => {
     var ans = useContext(Answer);
     ans = ans.message.slice(5);
-    console.log(ans);
+    // console.log(ans);
     return (
         <>
             <div className={styles.lightCard}>

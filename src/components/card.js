@@ -3,8 +3,9 @@ import styles from "./home.module.css";
 import Image from 'next/image';
 import logo from "./Assets/logo.svg"
 import OTPInput from 'react-otp-input';
-import Link from 'next/link';
+import { useRouter } from 'next/router';
 import {Answer} from "@/context/context"
+
 
 
 const Card = () => {
@@ -12,7 +13,7 @@ const Card = () => {
   const [otp, setOtp] = useState("");
   const [ques, setQues] = useState([]);
   const { message, setMessage } = useContext(Answer);
-
+  const router = useRouter();
   // console.log(otp);
   useEffect(() => {
     let x = Math.floor((Math.random() * 20));
@@ -28,11 +29,16 @@ const Card = () => {
   // console.log(ans, otp);
 
   const handleClick = () => {
+    if(otp.length === 0) {
+      alert("Please enter the answer")
+      return;
+    }
     if(otp.toLowerCase() === ans.toLowerCase()) {
       setMessage(otp)
     }else{
       setMessage(`Wrong${ans}`)
     }
+    router.push("/answer")
   }
   
   
@@ -50,10 +56,10 @@ const Card = () => {
             shouldAutoFocus
             inputStyle={{height:"24px", width:"20px", borderRadius:"5px", border:"1px solid black"}}
             containerStyle={{ overflow: "auto", width: "90vw", justifyContent: "center", }}
-            renderInput={(p) => <input {...p} />} />
-          <Link href="/answer">
+            renderInput={(p) => <input required {...p} />} />
+          
             <button onClick={handleClick}>Submit</button>
-          </Link>
+          
         </div>
       </div>
     </>

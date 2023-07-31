@@ -1,4 +1,3 @@
-import Home from '@/components/home'
 import React, {useContext} from 'react'
 import styles from "./styles.module.css";
 import RightAnsCard from '@/components/AnswerCard';
@@ -10,7 +9,7 @@ const Main = () => {
     const ctx = useContext(Answer);
     // console.log(ctx.message.slice(0,5));
     const isTrue = ctx.message?.slice(0,5);
-    console.log(isTrue);
+    // console.log(isTrue);
   return (
     <main className={styles.mainCont}>
      {
