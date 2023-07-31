@@ -9,8 +9,8 @@ const Main = () => {
     
     const ctx = useContext(Answer);
     // console.log(ctx.message.slice(0,5));
-    const isTrue = ctx.message.slice(0,5);
-    
+    const isTrue = ctx.message?.slice(0,5);
+    console.log(isTrue);
   return (
     <main className={styles.mainCont}>
      {
