@@ -21,43 +21,43 @@ const ques = [
     },
     {
         id: 5,
-        question:"'The Matrix' movie explores a simulated reality, often referred to as the __________(hint: think mark zuckerberg)        ",
+        question:"'The Matrix' movie explores a simulated reality, often referred to as the __________(hint: think mark zuckerberg)",
         answer:"Metaverse",
     },
     {
         id: 6,
         question:"What kind of 'printer' can build tangible 3-D objects from digital designs?",
-        answer:"3D Printer",
+        answer:"3DPrinter",
     },
     {
         id: 7,
         question:"Cutting-edge technology that can create three-dimensional objects layer by layer",
-        answer:"3D Printer",
+        answer:"3DPrinter",
     },
     {
         id: 8,
         question:"What will you use to covert your 2-D designed objects to 3-d(hint:it's a printer)",
-        answer:"3D Printer",
+        answer:"3DPrinter",
     },
     {
         id:9,
         question:"Sci-fi weapon that emits a powerful beam of light (P.S. Tinkering Lab uses this technology for fibre cutting)",
-        answer:"LASER FIBER CUTTER",
+        answer:"LASER",
     },
     {
         id: 10,
         question:"Technology used in medical procedures for precision cutting(P.S. Tinkering Lab uses this technology for fibre cutting)",
-        answer:"LASER FIBER CUTTER",
+        answer:"LASER",
     },
     {
         id: 11,
-        question:"In 'Star Wars,'' this weapon is a key part of blasters and lightsabers(P.S. Tinkering Lab uses this technology for fibre cutting)        ",
-        answer:"LASER FIBER CUTTER",
+        question:"In 'Star Wars', this weapon is a key part of blasters and lightsabers(P.S. Tinkering Lab uses this technology for fibre cutting)",
+        answer:"LASER",
     },
     {
         id: 12,
         question:"This type of weapon is often used in sci-fi movies and video games (Hint: It stands for Light Amplification by Stimulated Emission of Radiation) (P.S. Tinkering Lab uses this technology for fibre cutting)",
-        answer:"LASER FIBER CUTTER",
+        answer:"LASER",
     },
     {
         id: 13,
@@ -81,7 +81,7 @@ const ques = [
     },
     {
         id: 17,
-        question:"Surname of the Inventor known for developing the practical incandescent light bulb",
+        question:"Surname of the Inventor known for developing the practical incandescent light bulb",
         answer:"Edison",
     },
     {
@@ -91,18 +91,18 @@ const ques = [
     },
     {
         id: 19,
-        question:"Recently, Facebook underwent a re branding and adopted this new identity",
-        answer:"Meta",
+        question:"Nolan's recently released movie is based on this scientist.",
+        answer:"Oppenheimer",
     },
     {
         id: 20,
-        question:"Recently, Facebook underwent a re branding and adopted this new identity",
-        answer:"Meta",
+        question:"Nolan's recently released movie is based on this scientist.",
+        answer:"Oppenheimer",
     },
     {
         id: 21,
-        question:"Recently, Facebook underwent a re branding and adopted this new identity",
-        answer:"Meta",
+        question:"Nolan's recently released movie is based on this scientist.",
+        answer:"Oppenheimer",
     },
 ]
 
