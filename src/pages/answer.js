@@ -7,13 +7,14 @@ import { Answer } from '@/context/context';
 
 const Main = () => {
     
-    const isCorrect = useContext(Answer);
-    // console.log(isCorrect.message);
+    const ctx = useContext(Answer);
+    // console.log(ctx.message.slice(0,5));
+    const isTrue = ctx.message.slice(0,5);
     
   return (
     <main className={styles.mainCont}>
      {
-        isCorrect.message==='Wrong'? <RightAnsCard/>: <CorrectAnsCard/>
+        isTrue==='Wrong'? <RightAnsCard/>: <CorrectAnsCard/>
      }
     
     Made with ❤️ by Tinkering Lab

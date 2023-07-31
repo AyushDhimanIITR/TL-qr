@@ -31,7 +31,7 @@ const Card = () => {
     if(otp.toLowerCase() === ans.toLowerCase()) {
       setMessage(otp)
     }else{
-      setMessage("Wrong")
+      setMessage(`Wrong${ans}`)
     }
   }
   
