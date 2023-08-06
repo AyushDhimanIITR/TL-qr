@@ -116,7 +116,7 @@ const ques = [
     }, 
     {
         id:24,
-        question: "What is the network that uses a higher frequency band, known as millimeter wave, for faster data transmission? (Hint - Faster internet speed)",
+        question: "What is the network that uses a higher frequency band, known as millimeter wave, for faster data transmission? (Hint - Now your internet speed is increased)",
         answer: "5g",
     },
     {
