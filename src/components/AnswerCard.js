@@ -21,8 +21,8 @@ const RightAnsCard = () => {
                     <p className={styles.bodyText}>Answer is</p>
                     <p className={styles.answer}>{ans.charAt(0).toUpperCase()+ans.slice(1)} </p>
                     <p className={styles.tagLine}>Want to explore more about techy stuffs</p>
-                    <Link href="https://www.instagram.com/ayuushd">
-                        <button>Know</button>
+                    <Link href="https://www.instagram.com/p/CvmzBp3omcO/?igshid=MzRlODBiNWFlZA==">
+                        <button>Know More</button>
                     </Link>
                 </div>
             </div>

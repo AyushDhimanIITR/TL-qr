@@ -18,8 +18,8 @@ const CorrectAnsCard = () => {
                     <p className={styles.bodyText}>You are</p>
                     <p className={styles.answer}>CORRECT</p>
                     <p className={styles.tagLine}>Want to explore more about techy stuffs</p>
-                    <Link href="https://www.instagram.com/ayuushd">
-                    <button>Know</button>
+                    <Link href="https://www.instagram.com/p/CvmzBp3omcO/?igshid=MzRlODBiNWFlZA==">
+                    <button>Know More</button>
                     </Link>
                 </div>
             </div>
