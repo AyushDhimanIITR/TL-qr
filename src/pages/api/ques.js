@@ -81,8 +81,8 @@ const ques = [
     },
     {
         id: 17,
-        question:"Surname of the Inventor known for developing the practical incandescent light bulb",
-        answer:"Edison",
+        question:"What is the name of the first commercial battery-powered car?",
+        answer:"Tesla",
     },
     {
         id: 18,
@@ -91,18 +91,18 @@ const ques = [
     },
     {
         id: 19,
-        question:"Nolan's recently released movie is based on this scientist.",
-        answer:"Oppenheimer",
+        question:"What do you call an unmanned aircraft?",
+        answer:"Drone",
     },
     {
         id: 20,
-        question:"Nolan's recently released movie is based on this scientist.",
-        answer:"Oppenheimer",
+        question:"Which LLM model was recently developed by OpenAI, which initiated the new AI generation?",
+        answer:"ChatGPT",
     },
     {
         id: 21,
-        question:"Nolan's recently released movie is based on this scientist.",
-        answer:"Oppenheimer",
+        question:"What is the underlying technology of Bitcoin?",
+        answer:"Blockchain",
     },
 ]
 
