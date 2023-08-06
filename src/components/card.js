@@ -16,7 +16,7 @@ const Card = () => {
   const router = useRouter();
   // console.log(otp);
   useEffect(() => {
-    let x = Math.floor((Math.random() * 20));
+    let x = Math.floor((Math.random() * 28));
     
     const res = fetch("/api/server")
       .then((res) => res.json())
