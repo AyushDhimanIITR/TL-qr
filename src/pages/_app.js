@@ -1,5 +1,6 @@
 import Context from "@/context/context"
 import "./style.css"
+import {Analytics} from '@vercel/analytics/react';
 
 const MyApp = ({ Component, pageProps }) => {
 
@@ -7,6 +8,7 @@ const MyApp = ({ Component, pageProps }) => {
     <>
       <Context>
         <Component {...pageProps} />
+        <Analytics/>
       </Context>
     </>
   )
